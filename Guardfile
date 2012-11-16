@@ -8,6 +8,6 @@ guard 'sprockets',
     "vendor/assets/javascripts",
     "vendor/assets/stylesheets"
   ] do
-		watch (%r{^assets/javascripts/.*}){ |m| "driver-behaviour.js" }
-		watch (%r{^assets/stylesheets/.*}) { |m| "driver-behaviour.css" }
+		watch (%r{^assets/javascripts/.*}){ |m| "application.js" }
+		watch (%r{^assets/stylesheets/.*}) { |m| "application.css" }
 end
