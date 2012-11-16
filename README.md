@@ -1,56 +1,30 @@
-# [Mobile Boilerplate](http://mobileboilerplate.com/)
-
-Mobile Boilerplate is a professional front-end template that helps you build
-fast and robust mobile web applications. Spend more time developing and less
-time reinventing the wheel.
-
-* Source: [https://github.com/h5bp/mobile-boilerplate](https://github.com/h5bp/mobile-boilerplate)
-* Homepage: [http://mobileboilerplate.com](http://mobileboilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+StaticStrap
+====
 
 
-## Quick start
+StaticStrap is a collection of tools designed to make getting started with a static site/dynamic front-end application quick and easy.
 
-Clone the git repo - `git clone git://github.com/h5bp/mobile-boilerplate.git` -
-or [download it](https://github.com/h5bp/mobile-boilerplate/zipball/master)
+Features
+---
 
+* Uses [Sprockets](https://github.com/sstephenson/sprockets). Sprockets supports 'requiring' assets to bundle them into compiled javascript and css files, as well as supporting a number of precompilers ([LESS](http://lesscss.org) and [Coffeescript](http://coffeescript.org) are supported out of the box)
+* Has cleanly organized assets - your application's files live in `assets/javascripts`, `assets/stylesheets`, etc., and any libraries you use live in `vendor/javascripts`, etc.
+* Comes with Guard - already set up to watch asset directories for changes, and automatically compile stylesheets and javascripts.
 
-## Features
+Getting Started
+---
 
-* Mobile browser optimizations.
-* CSS normalizations and common bug fixes.
-* The latest Zepto.js.
-* A custom Modernizr build for feature detection and a polyfill for CSS Media
-  Queries.
-* Home page icon for Android, iOS, Nokia.
-* Cross-browser viewport optimization for Android, iOS, Mobile IE, Nokia,
-  and Blackberry.
-* Mobile IE conditional switch.
-* Better font rendering in Mobile IE.
-* iPhone web app meta.
-* INSTANT button click event.
-* Textarea autogrow plugin.
-* Hide URL bar method.
-* Prevent form zoom onfocus method.
-* Mobile site redirection.
-* Mobile bookmark bubble.
-* User Agent Detection.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+1. Clone the repository, or [download a copy](https://github.com/joshmcarthur/staticstrap/downloads)
+2. Install dependencies: `bundle install` (Requires Ruby)
+3. Run Guard, and start changing assets!: `bundle exec guard`
+4. Open `index.html` in your web browser!
 
+Credits
+---
 
-## Documentation
+Based on [Mobile Boilerplate](http://html5boilerplate.com/mobile/) - I cannot possibly take credit for all the awesome work the team there do making a great, performant and well-documented boilerplate. See the `docs/` folder for detailed information on Mobile Boilerplate features.
 
-Take a look at the [documentation table of contents](/h5bp/mobile-boilerplate/blob/master/doc/README.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation you
-want to write about your project.
+License
+--- 
 
-
-## Contributing
-
-Anyone and everyone is welcome to [contribute](/h5bp/mobile-boilerplate/blob/master/doc/contribute.md).
+See **LICENSE.md** for license information - need to know quickly? Everything's [MIT](http://opensource.org/licenses/MIT).
